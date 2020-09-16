@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <TITLE>
+            MY PAGE
+        </TITLE>
+        <LINK HREF='bootstrap-4.4.1-dist/css/bootstrap.min.css' REL="STYLESHEET" TYPE='text/css'></LINK>
+        <LINK HREF='stylesheet.css' REL="STYLESHEET" TYPE='text/css'></LINK>
+    </HEAD>
+    <body class="container">
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <div id="display">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button id="clearAll" class="btn btn-primary" onclick="clearClick()"><h1>C</h1></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button id="multiplication" class="operator btn btn-success" onclick="multiClicked()"><h3>*</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="division" class="operator btn btn-success" onclick="diviClicked()"><h3>/</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="substraction" class="operator btn btn-success" onclick="substClicked()"><h3>-</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="addition" class="operator btn btn-success" onclick="additClicked()"><h3>+</h3></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button id="decimal" class="btn btn-danger" onclick="deciClicked()"><h3>.</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="number9" class="operand btn btn-info" onclick="num9Clicked()"><h3>9</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="number8" class="operand btn btn-info" onclick="num8Clicked()"><h3>8</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="number7" class="operand btn btn-info" onclick="num7Clicked()"><h3>7</h3></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button id="number6" class="operand btn btn-info" onclick="num6Clicked()"><h3>6</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="number5" class="operand btn btn-info" onclick="num5Clicked()"><h3>5</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="number4" class="operand btn btn-info" onclick="num4Clicked()"><h3>4</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="number3" class="operand btn btn-info" onclick="num3Clicked()"><h3>3</h3></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button id="number2" class="operand btn btn-info" onclick="num2Clicked()"><h3>2</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="number1" class="operand btn btn-info" onclick="num1Clicked()"><h3>1</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="number0" class="operand btn btn-info" onclick="num0Clicked()"><h3>0</h3></button>
+                        </div>
+                        <div class="col-md-3">
+                            <button id="equalsTo" class="btn btn-warning" onclick="equals()"><h3>=</h3></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="result" class="btn btn-light"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <SCRIPT SRC="js/jQuery-3.5.1.js"></SCRIPT>
+        <SCRIPT SRC="bootstrap-4.4.1-dist/js/bootstrap.min.js"></SCRIPT>
+        <script src= "script.js"></script>
+    </body>
+</HTML>
